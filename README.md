@@ -6,11 +6,12 @@ For more deatailes about the app please visit the
 ## Screenshots
 
 <img src="screenshorts/Screenshot_20200413-153806.png" height=216 width="108">
-![ss2](screenshorts/Screenshot_20200413-153653.png)
-![ss3](screenshorts/Screenshot_20200413-153706.png)
-![ss4](screenshorts/Screenshot_20200413-153737.png)
-![ss5](screenshorts/Screenshot_20200413-153746.png)
-![ss6](screenshorts/Screenshot_20200413-153758.png)
+
+<img src="screenshorts/Screenshot_20200413-153653.png" height=216 width="108">
+<img src="screenshorts/Screenshot_20200413-153706.png" height=216 width="108">
+<img src="screenshorts/Screenshot_20200413-153737.png" height=216 width="108">
+<img src="screenshorts/Screenshot_20200413-153746.png" height=216 width="108">
+<img src="screenshorts/Screenshot_20200413-153758.png" height=216 width="108">
 
 
 
