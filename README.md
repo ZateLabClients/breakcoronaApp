@@ -3,7 +3,14 @@
 
 For more deatailes about the app please visit the
 [Our website](http://zateart.com/breakcorona/).
-![screenshot](screenshorts/Screenshot_20200413-153806.png)
+![ss1](screenshorts/Screenshot_20200413-153806.png)
+![ss2]()
+![ss3]()
+![ss4]()
+![ss5]()
+![ss6]()
+
+
 
 ## Usage
 ### PhoneGap Build
