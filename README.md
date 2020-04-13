@@ -33,13 +33,23 @@ You need to change the Database username,password in Nodejs and Php. Also you ne
 #### App main Screen
 
 <img src="screenshorts/Screenshot_20200413-153806.png" height=432 width="208">
+
 #### App main screen when you tap start travel
+
 <img src="screenshorts/Screenshot_20200413-153653.png" height=432 width="208">
+
 #### Chat with shop owners option
+
 <img src="screenshorts/Screenshot_20200413-153706.png" height=432 width="208">
+
 #### Chat with doctors option
+
 <img src="screenshorts/Screenshot_20200413-153737.png" height=432 width="208">
+
 #### Helpline list
+
 <img src="screenshorts/Screenshot_20200413-153746.png" height=432 width="208">
+
 #### App settings
+
 <img src="screenshorts/Screenshot_20200413-153758.png" height=432 width="208">
