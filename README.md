@@ -1,7 +1,7 @@
 # BreakCoronaApp
 Break Corona App uses real-time location of users to provide information to stay safe by alerting them about quarantined persons or red zones.
 App also provide Chat bot, News feed facilities so that the user can have awareness and clarity about the situation just by using our app. Also they can have details of Shops nearby, Doctors contact and Bedspaces available for Quarantine. Also we give reminder during specific times about individual safety measures.
- [Download Android App now](http://zateart.com/covidapp2/breakcoronaApp.apk).
+### [Download Android App now](http://zateart.com/covidapp2/breakcoronaApp.apk).
 For more deatailes about the app please visit the
  [Our website](http://zateart.com/breakcorona/).
 ## [Project website](http://zateart.com/breakcorona/)
