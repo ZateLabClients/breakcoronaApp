@@ -6,6 +6,8 @@ For more deatailes about the app please visit the
  [Our website](http://zateart.com/breakcorona/).
 ## [Project website](http://zateart.com/breakcorona/)
 
+## [Admin Panel](http://zateart.com/covidapp/cp/index.php)
+
 ### Prerequisites
 1. NodeJs
 2. Php
