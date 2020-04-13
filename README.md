@@ -21,10 +21,10 @@ For more deatailes about the app please visit the
     
 ## Screenshots
 
-<img src="screenshorts/Screenshot_20200413-153806.png" height=216 width="108">
+<img src="screenshorts/Screenshot_20200413-153806.png" height=324 width="162">
 
-<img src="screenshorts/Screenshot_20200413-153653.png" height=216 width="108">
-<img src="screenshorts/Screenshot_20200413-153706.png" height=216 width="108">
-<img src="screenshorts/Screenshot_20200413-153737.png" height=216 width="108">
-<img src="screenshorts/Screenshot_20200413-153746.png" height=216 width="108">
-<img src="screenshorts/Screenshot_20200413-153758.png" height=216 width="108">
+<img src="screenshorts/Screenshot_20200413-153653.png" height=324 width="162">
+<img src="screenshorts/Screenshot_20200413-153706.png" height=324 width="162">
+<img src="screenshorts/Screenshot_20200413-153737.png" height=324 width="162">
+<img src="screenshorts/Screenshot_20200413-153746.png" height=324 width="162">
+<img src="screenshorts/Screenshot_20200413-153758.png" height=324 width="162">
