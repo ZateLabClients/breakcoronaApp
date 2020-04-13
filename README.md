@@ -15,7 +15,7 @@ For more deatailes about the app please visit the
 6. OneSignal API for sending Notification in Andriod
 
 ## Usage
-### Adobe PhoneGap Build
+### Nodejs / php
 You need to change the Database username,password in Nodejs and Php. Also you need to change the API key for sending OTP.
 
 ### Adobe PhoneGap Build
