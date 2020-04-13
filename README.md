@@ -1,4 +1,4 @@
-# breakcoronaApp
+# BreakCoronaApp
 > A tracking..... application built with PhoneGap
 
 For more deatailes about the app please visit the
