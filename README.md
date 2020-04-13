@@ -4,11 +4,11 @@
 For more deatailes about the app please visit the
 [Our website](http://zateart.com/breakcorona/).
 ![ss1](screenshorts/Screenshot_20200413-153806.png)
-![ss2]()
-![ss3]()
-![ss4]()
-![ss5]()
-![ss6]()
+![ss2](screenshorts/Screenshot_20200413-153653.png)
+![ss3](screenshorts/Screenshot_20200413-153706.png)
+![ss4](screenshorts/Screenshot_20200413-153737.png)
+![ss5](screenshorts/Screenshot_20200413-153746.png)
+![ss6](screenshorts/Screenshot_20200413-153758.png)
 
 
 
