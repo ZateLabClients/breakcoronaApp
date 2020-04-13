@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Signup</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Signup</h2>
+      <form method="post" action="register.php" enctype="multipart/form-data">
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" name="name" required class="form-control" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label>Phone</label>
+          <input type="tel" name="phone" required class="form-control" placeholder="Enter your phone number">
+        </div>
+        <div class="form-group">
+          <label>Job</label>
+          <input type="text" name="job" required class="form-control" placeholder="Enter name of your Shop">
+        </div>
+        <div class="form-group">
+          <label>Place</label>
+          <input type="text" name="place" required class="form-control" placeholder="Enter address of your Shop">
+        </div>
+        <div class="form-group">
+          <label>Minimum wages</label>
+          <input type="tel" name="wages" required class="form-control" placeholder="eg: 9.00am-4.00pm">
+        </div>
+        <div class="form-group">
+          <Label>Password</label>
+          <input type="password" name="password" id="p1" required class="form-control" placeholder="Enter your password">
+        </div>
+        <div class="form-group">
+          <label>Repeat Password</label>
+          <input type="password" name="password1" id="p2" required class="form-control" placeholder="Enter your password again ">
+        </div>
+        <div class="form-group">
+
+          <input id="submit" type="submit" class="btn btn-primary" style="width:100%"><br>
+
+        </div>
+        <div class="text-center">
+          <a href="login.html">Already a user?</a>
+
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
