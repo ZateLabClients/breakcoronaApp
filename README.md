@@ -29,7 +29,7 @@ You need to change the Database username,password in Nodejs and Php. Also you ne
     https://github.com/teamuec/breakcoronaApp.git
     
     
-## Screenshots
+## App Screenshots
 #### App main Screen
 
 <img src="screenshorts/Screenshot_20200413-153806.png" height=432 width="208">
@@ -53,3 +53,9 @@ You need to change the Database username,password in Nodejs and Php. Also you ne
 #### App settings
 
 <img src="screenshorts/Screenshot_20200413-153758.png" height=432 width="208">
+
+## Control panel Screenshots
+
+#### Control Panel Main screen
+
+<img src="screenshorts/Screenshot+(2).png" height=450 width="800">
