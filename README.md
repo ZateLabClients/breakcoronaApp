@@ -1,14 +1,20 @@
 # BreakCoronaApp
-> A tracking..... application built with PhoneGap
+Break Corona App uses real-time location of users to provide information to stay safe by alerting them about quarantined persons or red zones.
+App also provide Chat bot, News feed facilities so that the user can have awareness and clarity about the situation just by using our app. Also they can have details of Shops nearby, Doctors contact and Bedspaces available for Quarantine. Also we give reminder during specific times about individual safety measures.
 
 For more deatailes about the app please visit the
-[Our website](http://zateart.com/breakcorona/).
+ [Our website](http://zateart.com/breakcorona/).
+## [Project website](http://zateart.com/breakcorona/)
 
-
+### Prerequisites
+1. NodeJs
+2. Php
+3. MariaDb
+4. Phonegap Build
 
 
 ## Usage
-### PhoneGap Build
+### Adobe PhoneGap Build
 
 >Adobe PhoneGap is a standards-based, open-source development framework for building cross-platform mobile apps with HTML, CSS and >JavaScript for iOS and Android™.
 
