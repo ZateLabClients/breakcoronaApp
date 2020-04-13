@@ -4,9 +4,11 @@ App also provide Chat bot, News feed facilities so that the user can have awaren
 ### [Download Android App now](http://zateart.com/covidapp2/breakcoronaApp.apk).
 For more deatailes about the app please visit the
  [Our website](http://zateart.com/breakcorona/).
+ 
+ Our control panel [Admin Panel](http://zateart.com/covidapp/cp/index.php).
 ## [Project website](http://zateart.com/breakcorona/)
 
-## [Admin Panel](http://zateart.com/covidapp/cp/index.php)
+
 
 ### Prerequisites
 1. NodeJs
