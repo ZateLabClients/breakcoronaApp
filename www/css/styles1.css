@@ -1,0 +1,13 @@
+
+body {
+    margin: 0;            /* Reset default margin */
+}
+iframe {
+    display: block;       /* iframes are inline by default */
+/*    background: #fff url("load2.gif") no-repeat fixed center; */
+    background: #fff;
+	color:red;
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100vw;
+}

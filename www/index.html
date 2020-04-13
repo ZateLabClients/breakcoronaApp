@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+        function subshow(x) {
+          document.getElementById("snav").style.display = "block";
+          document.getElementById("ssearch").innerHTML = x;
+        }
+        function subhide() {
+          document.getElementById("snav").style.display = "none";
+        }
+        function subshow2(x) {
+          document.getElementById("snav2").style.display = "block";
+          document.getElementById("ssearch2").innerHTML = x;
+        }
+        function subhide2() {
+          document.getElementById("snav2").style.display = "none";
+        }
+  </script>
+    <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+   -->
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Your app title -->
+    <title>My App</title>
+
+    <!-- This template defaults to the iOS CSS theme. To support both iOS and material design themes, see the Framework7 Tutorial at the link below:
+        http://www.idangero.us/framework7/tutorials/maintain-both-ios-and-material-themes-in-single-app.html
+     -->
+<link rel="stylesheet" href="lib/framework7-icons.css">
+    <link rel="stylesheet" href="lib/framework7/css/framework7.ios.min.css">
+    <link rel="stylesheet" href="lib/framework7/css/framework7.ios.colors.min.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Status bar overlay for full screen mode (PhoneGap) -->
+    <div class="statusbar-overlay"></div>
+
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-cover" style="">
+<div style="height:100%;">
+  <center>
+		<div style="background: linear-gradient(to right, #9a4ef1,#3f1482); height:90px; color:grey;"><img width="60%" style="margin-top:10px;" src="logo.png"></div>
+  </center>
+    <div class="content-block" style="">
+            <font style="line-height:45px; font-size:15px;">
+			<a class="close-panel link" href="home.html"><div style="width:100%;color:black"><i class="f7-icons">home</i> &nbsp Home page</div></a>
+      <hr>
+			<a class="close-panel link" href="cato.html"><div style="width:100%;color:black"><i class="f7-icons">film</i> &nbsp Video Catogory</div></a>
+			<!-- <a class="close-panel link" href="cart.html"><div style="width:100%;color:black"><i class="f7-icons">heart</i> &nbsp Favorate Videos</div></a> -->
+      <hr>
+			<!-- <a class="close-panel link" href="events.html"><div style="width:100%;color:black"><i class="f7-icons">help_round</i> &nbsp Find Employees</div></a> -->
+			<!-- <a class="close-panel link" href="request.html"><div style="width:100%;color:black"><i class="f7-icons">compose</i> &nbsp Register for job</div></a> -->
+      <!-- <hr> -->
+			<!-- <a class="close-panel link" href="aboutdd.html"><div style="width:100%;color:black"><i class="f7-icons">chat</i> &nbsp Live Chat</div></a> -->
+      <!-- <hr> -->
+			<a class="close-panel link" href="about.html"><div style="width:100%;color:black"><i class="f7-icons">person</i> &nbsp About Us</div></a>
+			<a class="close-panel link" href="contact.html"><div style="width:100%;color:black"><i class="f7-icons">phone</i> &nbsp Contact Us</div></a>
+
+
+
+
+			</font>
+        </div>
+</div>
+    </div>
+
+    <!-- Views -->
+    <div class="views">
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+            <!-- Top Navbar-->
+            <div class="navbar" style="background:#9a4ef1;">
+                <div class="navbar-inner">
+                    <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+
+                    <div class="left">
+                        <!--
+                          Right link contains only icon - additional "icon-only" class
+                          Additional "open-panel" class tells app to open panel when we click on this link
+                        -->
+                        <!-- <a href="#" class="link icon-only open-panel"><i class="f7-icons color-custom" style="font-size: 26px;" >bars</i></a> -->
+                    </div>
+					<div class="center sliding"><img src=logo.png></div>
+
+					<div class="right">   </div>
+
+
+                </div>
+            </div>
+            <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+            <div class="pages">
+                <!-- Page, "data-page" contains page name -->
+                <div data-page="index" class="page">
+                    <!-- Scrollable page content -->
+                    <div class="page-content">
+							<div id="fr2" width=100% height=100% style="padding:3%;" >
+							<div style="padding:5px;margin-top: 25px; ">
+							<center><h3 id="heading1">Checking Internet Connection...</h3></center>
+                <img style="border-radius: 10px; " src="nop.png" width=100%>
+							</div>
+							<center>
+							<input type="button" value="Retry" style="border-radius:5px;width:40%;height:35px;margin-top:20px;background-color:#f1f1f1;color:black;" onclick="netcheck()">
+							</center>
+							</div>
+
+        <div id="overlay"></div>
+
+	<div style="display:none;">
+
+  <img id="11" src='http://zateart.com/covidapp2/images/netspeed.png' onload="myFunction1()" onerror="myFunction2()" />
+
+
+<script>
+console.log('start');
+document.getElementById("overlay").style.display = "block";
+
+function myFunction2() {
+    console.log('nooo');
+    document.getElementById("overlay").style.display = "none";
+    myApp.alert(" No internet connection  available !");
+    document.getElementById('heading1').innerHTML='No Internet Connection';
+		}
+
+
+function myFunction1() {
+  console.log('yess');
+    location.replace("http://zateart.com/covidapp2/index2.php");
+    // window.open('http://zateart.com/covidapp2/index.php','_blank');
+		// document.getElementById("fr1").style.display= "block" ;
+		// document.getElementById("fr2").style.display= "none" ;
+
+			// var iframe = document.getElementById('fr1');
+			// iframe.src = iframe.src;
+
+
+						}
+var d= new Date();
+document.getElementById("11").src= "http://zateart.com/covidapp2/images/netspeed.png?ver=" +d.getTime();
+function netcheck() {
+        document.getElementById("overlay").style.display = "block";
+        document.getElementById("11").src= "http://zateart.com/covidapp2/images/netspeed.png?ver=" +d.getTime();
+}
+</script>
+
+<style media="screen">
+#overlay {
+   position: fixed;
+   display: none;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-image: url(glow2.gif);
+   background-repeat: no-repeat;
+   background-position: center;
+
+   background-color: #fff;
+   z-index: 2;
+}
+</style>
+
+
+
+							</div>
+
+
+
+                    </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+    <script type="text/javascript" src="js/my-app.js"></script>
+</body>
+
+</html>

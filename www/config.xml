@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+  <widget xmlns       = "http://www.w3.org/ns/widgets"
+      xmlns:gap       = "http://phonegap.com/ns/1.0"
+      xmlns:android   = "http://schemas.android.com/apk/res/android"
+      id="com.breakchainappx.app"
+      version="1.0.0"
+      versionCode="10001">
+
+    <name>Break Corona</name>
+    <description>
+        Lets Break this Chain
+    </description>
+    <author email="jaeferjafy@gmail.com" href="https://bookmarfft.online/secure-shopping">
+        TeamUec
+    </author>
+    <content src="index.html" />
+
+
+<platform name="android">
+  <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
+      <application android:usesCleartextTraffic="true" />
+  </edit-config>
+</platform>
+
+
+	<preference name="android-build-tool" value="gradle" />
+
+	<preference name="loadUrlTimeoutValue" value="700000" />
+	<preference name="StatusBarOverlaysWebView" value="true" />
+	<preference name="StatusBarBackgroundColor" value="#9a4ef1" />
+
+
+	<preference name="StatusBarStyle" value="lightcontent"/>
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="android-targetSdkVersion" value="28" />
+
+
+
+
+    <plugin name="cordova-plugin-remote-injection" source="npm" />
+    <preference name="CRIPageLoadPromptInterval" value="0" />
+    <preference name="CRIInjectFirstFiles" value="" />
+
+
+    <gap:plugin name="onesignal-cordova-plugin" source="npm" />
+    <preference name="phonegap-version" value="cli-8.0.0" />
+
+
+
+
+
+<plugin name="@mauron85/cordova-plugin-background-geolocation"/>
+
+
+
+    <plugin name="cordova-plugin-appminimize" source="npm" />
+
+
+    <plugin name="cordova-plugin-console" source="npm" spec="~1.0.2" />
+    <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.0" />
+    <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" />
+    <plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1" />
+    <plugin name="cordova-plugin-statusbar" source="npm" />
+    <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+    <platform name="android">
+	<icon src="icon.png" />
+	<splash src="sp.png" />
+    </platform>
+
+
+
+    <access origin="*" />
+    <allow-navigation href="http://zateart.com/*" />
+    <allow-navigation href="https://www.covid19india.org/*" />
+    <allow-navigation href="http://www.covid19india.org/*" />
+    <allow-navigation href="http://chatapp.96.lt/*" />
+	<access origin="whatsapp:*" launch-external="yes" />
+	<access origin="instagram:*" launch-external="yes" />
+	<access origin="fb:*" launch-external="yes" />
+	<access origin="facebook:*" launch-external="yes" />
+	  <allow-intent href="whatsapp:*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+
+</widget>
