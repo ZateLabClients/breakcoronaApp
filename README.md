@@ -11,9 +11,13 @@ For more deatailes about the app please visit the
 2. Php
 3. MariaDb
 4. Phonegap Build
-
+5. TextLocal API for senting SMS
+6. OneSignal API for sending Notification in Andriod
 
 ## Usage
+### Adobe PhoneGap Build
+You need to change the Database username,password in Nodejs and Php. Also you need to change the API key for sending OTP.
+
 ### Adobe PhoneGap Build
 
 >Adobe PhoneGap is a standards-based, open-source development framework for building cross-platform mobile apps with HTML, CSS and >JavaScript for iOS and Android™.
