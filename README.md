@@ -5,7 +5,7 @@ App also provide Chat bot, News feed facilities so that the user can have awaren
 For more deatailes about the app please visit the
  [Our website](http://zateart.com/breakcorona/).
  
- Our control panel [Admin Panel](http://zateart.com/covidapp/cp/index.php).
+ Visit our [Control Panel](http://zateart.com/covidapp/cp/index.php).
 ## [Project website](http://zateart.com/breakcorona/)
 
 
