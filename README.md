@@ -58,4 +58,4 @@ You need to change the Database username,password in Nodejs and Php. Also you ne
 
 #### Control Panel Main screen
 
-<img src="screenshorts/Screenshot (2).png" height=200 width="400">
+<img src="screenshorts/Screenshot (2).png" height=300 width="600">
