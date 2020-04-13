@@ -4,7 +4,7 @@
 For more deatailes about the app please visit the
 [Our website](http://zateart.com/breakcorona/).
 ## Screenshots
-![ss1](screenshorts/Screenshot_20200413-153806.png)<!-- .element class="img-responsive" -->
+![ss1](screenshorts/Screenshot_20200413-153806.png)<!-- .element height="50%" width="50%" -->
 ![ss2](screenshorts/Screenshot_20200413-153653.png)
 ![ss3](screenshorts/Screenshot_20200413-153706.png)
 ![ss4](screenshorts/Screenshot_20200413-153737.png)
