@@ -9,5 +9,4 @@ For more deatailes about the app please visit the
 
 Create a new app with the following repository:
 
-    https://github.com/phonegap/phonegap-start.git
-
+    https://github.com/teamuec/breakcoronaApp.git
